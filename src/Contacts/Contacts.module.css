@@ -1,0 +1,42 @@
+.contacts {
+    height: 100vh;
+    
+    background-color: rgb(193, 131, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.contactsContainer {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+.title {
+
+}
+
+.forms {
+    border: 1px solid;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input {
+    line-height: 30px;
+    width: 200px;
+}
+
+.textarea {
+
+}
+
+.button {
+
+}
