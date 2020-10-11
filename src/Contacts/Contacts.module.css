@@ -22,10 +22,11 @@
 
 .forms {
     border: 1px solid;
-    min-height: 250px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .input {
@@ -34,9 +35,12 @@
 }
 
 .textarea {
-
+    line-height: 40px;
+    width: 200px;
 }
 
 .button {
-
+    padding: 5px;
+    height: 30px;
+    width: 100px;
 }

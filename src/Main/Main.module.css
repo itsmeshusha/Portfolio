@@ -1,18 +1,22 @@
 .mainBlock {
-    height: 100vh;
-    background-color: rgb(218, 177, 218);
-    
+  height: 100vh;
+  background-color: rgb(218, 177, 218);
 }
 
-
-
 .greeting {
-    width: 500px;
-    background-color: rgb(59, 34, 59);
+  width: 500px;
+  background-color: rgb(59, 34, 59);
 }
 
 .photo {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(238, 11, 238);
+  width: 400px;
+  height: 400px;
+  background-color: rgb(238, 11, 238);
+}
+
+@media (max-width: 520px) {
+  .photo {
+    width: 300px;
+    height: 300px;
+  }
 }

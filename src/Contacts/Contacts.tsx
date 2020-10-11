@@ -11,7 +11,8 @@ function Contacts() {
                     <form className={s.forms}>
                         <input className={s.input} type="text" placeholder="Your fullname" />
                         <input className={s.input} type="text" placeholder="Your email" />
-                        <textarea className={s.textarea} cols={40} rows={10} placeholder="Details"></textarea>
+                        <textarea className={s.textarea} 
+                         placeholder="Details"></textarea>
                         <input className={s.button} type="submit" />
                     </form>
 
