@@ -1,7 +1,6 @@
 .contacts {
     height: 100vh;
-    
-    background-color: rgb(193, 131, 255);
+    background-color: #1f1f20;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -16,31 +15,45 @@
     min-height: 400px;
 }
 
-.title {
-
-}
 
 .forms {
-    border: 1px solid;
-    min-height: 300px;
+    padding: 10px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .input {
     line-height: 30px;
     width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .textarea {
-    line-height: 40px;
-    width: 200px;
+    line-height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .button {
-    padding: 5px;
-    height: 30px;
-    width: 100px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #f09815;
+    border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }

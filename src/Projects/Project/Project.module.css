@@ -25,7 +25,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 .icon:hover::before {
     opacity: 0.1;
