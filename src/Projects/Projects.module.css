@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: rgb(247, 0, 247);
+    background-color: #1f1f20;
     
 }
 
@@ -11,7 +11,16 @@
 }
 
 .title{
-    background-color: beige;
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 5px;
 }
 
 .projects {

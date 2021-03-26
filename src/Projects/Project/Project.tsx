@@ -10,7 +10,9 @@ function Project(props: PropsType) {
     return (
         
             <div className={s.project}>
-            <div className={s.icon}></div>
+            <div className={s.icon}>
+                <a className={s.viewBtn}>View more</a>
+            </div>
             <h3>{props.title}</h3>
             <span className={s.description}>
                 {props.description}

@@ -2,6 +2,7 @@ import React from 'react';
 import Skill from './Skill/Skill';
 import s from './Skills.module.css';
 import styleContainer from '../Common/Styles/Container.module.css';
+import Title from "../Common/Components/Title/Title";
 
 
 
@@ -9,7 +10,7 @@ function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>My Skills</h2>
+                <Title title={"My skills"} />
                 <div className={s.skills}>
                     <Skill title={"HTML"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
                     <Skill title={"CSS"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
