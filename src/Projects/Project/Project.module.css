@@ -1,6 +1,5 @@
 .project {
     width: 450px;
-    background-color: rgb(218, 200, 218);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,18 +8,51 @@
 
 .icon {
     height: 300px;
-    width: 400px;
-    background-color: rgb(240, 152, 21);
+    width: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.icon::before {
+    position: absolute;
+    content: '';
+    background-color: #232323;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+}
+.icon:hover::before {
+    opacity: 0.1;
 }
 
 .viewBtn {
-    background-color: #dab1da;
+    background-color: #f3d12d;
     padding: 10px 20px;
 }
 
+.projectInfo {
+    padding: 25px 20px;
+    background-color: #252527;
+}
+
+.projectTitle {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
 .description {
-    
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
 }

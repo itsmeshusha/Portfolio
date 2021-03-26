@@ -10,21 +10,8 @@
     justify-content: flex-start;
 }
 
-.title{
-    margin-bottom: 30px;
-}
-
-.title h2 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    margin: 0;
-    font-size: 36px;
-    letter-spacing: 5px;
-}
 
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-around;
