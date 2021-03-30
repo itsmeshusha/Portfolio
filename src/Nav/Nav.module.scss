@@ -1,0 +1,13 @@
+.nav {
+    width: 500px;
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}

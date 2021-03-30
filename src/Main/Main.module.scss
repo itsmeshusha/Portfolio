@@ -1,10 +1,14 @@
 .mainBlock {
   height: 100vh;
-  background-color: rgb(218, 177, 218);
+  background-color: #1f1f20;
 
   .greeting {
     width: 500px;
-    background-color: rgb(59, 34, 59);
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    h1 {
+        letter-spacing: 3px;
+    }
   }
 
   .photo {

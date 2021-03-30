@@ -1,5 +1,5 @@
 .contacts {
-  height: 100vh;
+  height: 80vh;
   background-color: #1f1f20;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
   .contactsContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 400px;
 
     .forms {

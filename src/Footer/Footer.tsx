@@ -12,7 +12,7 @@ function Footer() {
                     <div className={s.icon}></div>
                     <div className={s.icon}></div>
                 </div>
-                <h3>© 2020 All rights Reserved</h3>
+                <h3>© 2021 All rights reserved</h3>
             </div>
 
         </div>

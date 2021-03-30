@@ -1,12 +1,30 @@
 .footer {
+  background-color: #1f1f20;
   .footerContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    h2 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin: 0;
+        line-height: 1.5;
+    }
+    h3 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+        margin: 0;
+        line-height: 1.5;
+        letter-spacing: 3px;
+    }
 
     .socialMedia {
-      border: 1px solid;
       width: 300px;
       display: flex;
       flex-direction: row;
