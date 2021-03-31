@@ -8,18 +8,18 @@ import Projects from './Projects/Projects';
 import Skills from './Skills/Skills';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Main />
-      <Skills />
-      <Projects />
-      <Contacts />
-      <Footer />
-      
-      
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Projects/>
+            <Contacts/>
+            <Footer/>
+
+
+        </div>
+    );
 }
 
 export default App;

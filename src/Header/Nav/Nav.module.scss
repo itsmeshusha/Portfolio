@@ -3,6 +3,9 @@
     margin: 0 80px;
     display: flex;
     justify-content: space-evenly;
+    @media screen and (max-width: 470px) {
+       display: none;
+    }
     a {
         text-decoration: none;
         font-family: 'Ubuntu', sans-serif;
