@@ -1,5 +1,8 @@
 .skillsBlock {
   background-color: #1f1f20;
+  font-family: 'Ubuntu', sans-serif;
+
+  color: #fff;
 
   .skillsContainer {
     align-items: center;
@@ -8,7 +11,6 @@
     padding: 30px;
 
     .skills {
-      border: 1px solid;
       width: 100%;
       display: flex;
       justify-content: space-around;

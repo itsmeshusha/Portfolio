@@ -12,12 +12,14 @@ function Skills() {
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title title={"My skills"} />
                 <div className={s.skills}>
-                    <Skill title={"HTML"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
-                    <Skill title={"CSS"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
-                    <Skill title={"JavaScript"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
-                    <Skill title={"TypeScript"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
-                    <Skill title={"React"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
-                    <Skill title={"Redux"} description={"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain"}/>
+                    <Skill title={"React"} description={"SPA, Functional components, Hooks, Material-UI, Forms, Routes, Pagination ..."}/>
+                    <Skill title={"Redux"} description={"State Management,Reducers, Thunk, Hooks, Selectors ..."}/>
+                    <Skill title={"JavaScript"} description={"Promises, EventLoop, Data Types, Functions, Currying, Closure, This, Objects, Recursion ..."}/>
+                    <Skill title={"TypeScript"} description={"Migrate projects from JS to TS, Generics, typeof, ReturnType, Enum ..."}/>
+                    <Skill title={"NextJS"} description={"Server-side rendering, Search engine optimization ..."}/>
+                    <Skill title={"Rest API"} description={"CRUD Operations, working with Axios library ..."}/>
+                    <Skill title={"CSS"} description={"CSS3, CSS-Modules, SASS/SCSS, Styled Components ..."}/>
+                    <Skill title={"HTML"} description={"Landing Pages, Semantic tags, Forms ..."}/>
                 </div>
             
             </div>
