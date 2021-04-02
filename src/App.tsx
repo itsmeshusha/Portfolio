@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Main from './Main/Main';
@@ -14,7 +13,6 @@ function App() {
             <Main/>
             <Skills/>
             <Projects/>
-            <Contacts/>
             <Footer/>
 
 
