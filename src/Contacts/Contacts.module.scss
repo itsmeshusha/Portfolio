@@ -1,5 +1,4 @@
 .contacts {
-  height: 80vh;
   background-color: #1f1f20;
   display: flex;
   align-items: center;
@@ -13,7 +12,6 @@
     min-height: 400px;
 
     .forms {
-      padding: 10px;
       min-height: 400px;
       display: flex;
       flex-direction: column;
@@ -25,7 +23,6 @@
         line-height: 30px;
         width: 200px;
         border-radius: 5px;
-        padding: 10px;
         border: 2px solid #ccc;
         font-family: 'Ubuntu', sans-serif;
         font-size: 14px;
@@ -34,9 +31,7 @@
 
       .textarea {
         line-height: 50px;
-        width: 300px;
         border-radius: 5px;
-        padding: 10px;
         border: 2px solid #ccc;
         font-family: 'Ubuntu', sans-serif;
         font-size: 14px;
