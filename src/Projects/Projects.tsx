@@ -5,6 +5,10 @@ import Project from './Project/Project';
 import Title from '../Common/Components/Title/Title';
 import todo from '../Assets/images/todolist.jpg';
 import owl from '../Assets/images/moscowl.jpg'
+// @ts-ignore
+import Fade from 'react-reveal/Fade';
+
+
 
 export type ImageType = {
     backgroundImage: string
@@ -18,9 +22,12 @@ function Projects() {
     }
 
     return (
-        <div className={s.projectsBlock}>
+        <div className={s.projectsBlock} id={'projects'}>
             <div className={`${styleContainer.container} ${s.projectsContainer}`}>
-                <Title title={"My projects"} />
+               <Fade left>
+                   <Title title={"My projects"} />
+               </Fade>
+                <Fade right>
                 <div className={s.projects}>
                     <Project image={todolist} title={"Todo List"}
                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"} />
@@ -28,6 +35,7 @@ function Projects() {
                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"} />
 
                 </div>
+                </Fade>
             </div>
             
             

@@ -9,10 +9,10 @@ function BurgerNav() {
     return (
         <div className={s.burgerNav}>
             <div className={menuIsOpen ? `${s.burgerItems} ${s.show}` : s.burgerItems}>
-                <a href="">Main</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="">Contacts</a>
+                <a href="#main">Main</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contacts">Contacts</a>
             </div>
             <div className={s.burgerBtn} onClick={onMenuClickHandler}></div>
         </div>
