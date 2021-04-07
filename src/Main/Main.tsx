@@ -3,7 +3,9 @@ import s from './Main.module.css';
 import MyPhoto from '../Assets/images/MyPhoto.jpg';
 import styleContainer from '../Common/Styles/Container.module.css';
 import Particles from 'react-particles-js';
+//@ts-ignore
 import Bounce from 'react-reveal/Bounce';
+//@ts-ignore
 import ReactTypingEffect from 'react-typing-effect';
 
 
