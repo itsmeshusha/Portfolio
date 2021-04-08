@@ -29,9 +29,9 @@ function Projects() {
                </Fade>
                 <Fade right>
                 <div className={s.projects}>
-                    <Project image={todolist} title={"Todo List"}
+                    <Project image={todolist} title={"Todo List"} href={'https://github.com/itsmeshusha/TodoList'}
                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"} />
-                    <Project image={moscowl} title={"Moscow MTG Legacy"}
+                    <Project image={moscowl} title={"Moscow MTG Legacy"} href={'https://github.com/itsmeshusha/moscow-owl'}
                             description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"} />
 
                 </div>
