@@ -7,6 +7,8 @@ import Particles from 'react-particles-js';
 import Bounce from 'react-reveal/Bounce';
 //@ts-ignore
 import ReactTypingEffect from 'react-typing-effect';
+//@ts-ignore
+import Tilt from 'react-tilt'
 
 
 const particleOpt = {
@@ -34,9 +36,13 @@ function Main() {
                                           speed={300}
                                           typingDelay={1000} cursor='_'/></h3>
                 </div>
-                <div>
-                    <img className={s.photo} src={MyPhoto} alt="myPhoto"/>
-                </div>
+                <Tilt className="Tilt" options={{ max : 20 }} >
+                    <div>
+                        <img className={s.photo} src={MyPhoto} alt="myPhoto"/>
+                    </div>
+                </Tilt>
+
+
             </div>
             </Bounce>
         </div>

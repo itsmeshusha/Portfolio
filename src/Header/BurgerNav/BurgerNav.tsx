@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import s from './BurgerNav.module.scss'
+import {FaBars} from "react-icons/all";
 
 function BurgerNav() {
     const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -14,7 +15,8 @@ function BurgerNav() {
                 <a href="#projects">Projects</a>
                 <a href="#contacts">Contacts</a>
             </div>
-            <div className={s.burgerBtn} onClick={onMenuClickHandler}></div>
+            <FaBars className={s.burgerBtn} onClick={onMenuClickHandler}/>
+            {/*<div className={s.burgerBtn} onClick={onMenuClickHandler}></div>*/}
         </div>
     )
 }
