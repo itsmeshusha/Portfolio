@@ -15,6 +15,8 @@ import nextlogo from '../Assets/images/next_logo.png';
 import restapilogo from '../Assets/images/rest-api.png';
 import csslogo from '../Assets/images/css3.png';
 import htmllogo from '../Assets/images/html5.png';
+import reactnativelogo from '../Assets/images/reactnative.png';
+import firebaselogo from '../Assets/images/firebase.png';
 
 
 function Skills() {
@@ -42,6 +44,12 @@ function Skills() {
     const html: ImageType  = {
         backgroundImage: `url(${htmllogo})`
     }
+    const reactnative: ImageType  = {
+        backgroundImage: `url(${reactnativelogo})`
+    }
+    const firebase: ImageType  = {
+        backgroundImage: `url(${firebaselogo})`
+    }
 
     return (
         <div className={s.skillsBlock} id={'skills'}>
@@ -62,6 +70,8 @@ function Skills() {
                         <Skill title={"Rest API"} image={restapi} description={"CRUD Operations, working with Axios library ..."}/>
                         <Skill title={"CSS"} image={css} description={"CSS3, CSS-Modules, SASS/SCSS, Styled Components ..."}/>
                         <Skill title={"HTML"} image={html} description={"Landing Pages, Semantic tags, Forms ..."}/>
+                        <Skill title={"React Native"} image={reactnative} description={"Mobile apps development..."}/>
+                        <Skill title={"Firebase"} image={firebase} description={"Firebase auth, storage, cloud firestore..."}/>
                     </div>
                 </Fade>
             </div>
