@@ -44,7 +44,7 @@ function Projects() {
                     <Project image={photos} title={"Photo Gallery"} href={'https://github.com/itsmeshusha/firebase-storage'}
                              description={"App for uploading photos and displaying them."} />
                     <Project image={cards} title={"Cards for studying"} href={'https://github.com/itsmeshusha/IncFriday'}
-                             description={"App for you to study."} />
+                             description={"App for you to study. Ypu can create packs and cards of new words to learn? for example."} />
 
                 </div>
                 </Fade>
