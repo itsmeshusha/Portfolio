@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "L3B7V5E9E2.ru.vbr.mobile",
+            "paths": ["/app/*"]
+            }
+        ]
+    }
+}
